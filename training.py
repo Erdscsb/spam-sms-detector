@@ -64,13 +64,5 @@ with open("spam_classifier.pkl", "wb") as f:
 # Example
 print(predict_spam("Congratulations! You've won a free ticket to Bali. Call now!"))
 print(predict_spam("Don't forget about dinner at 7 PM. See you then!"))
-print(
-    predict_spam(
-        "Free entry in a weekly competition to win a brand new car! Text WIN to 12345."
-    )
-)
-print(
-    predict_spam(
-        "You are selected for a free vacation package. Call 1-800-NOW to book!"
-    )
-)
+print(predict_spam("Free entry in a weekly competition to win a brand new car! Text WIN to 12345."))
+print(predict_spam("You are selected for a free vacation package. Call 1-800-NOW to book!"))
